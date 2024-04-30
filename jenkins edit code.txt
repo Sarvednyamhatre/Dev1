@@ -1,0 +1,6 @@
+ net stop jenkins
+ cd C:\Program Files\Jenkins
+ notepad jenkins.xml
+ cd %ProgramData%\Jenkins\.jenkins
+ notepad config.xml
+net start jenkins
